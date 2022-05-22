@@ -1,5 +1,5 @@
 {
-  "name": "erela.js",
+  "name": "@nextium/erela.js",
   "version": "3.0.0-pre",
   "description": "An easy-to-use Lavalink client for NodeJS.",
   "main": "dist/index.js",
