@@ -1,14 +1,16 @@
 {
   "name": "@nextium/erela.js",
-  "version": "3.0.0-pre",
+  "version": "3.0.2-pre",
   "description": "An easy-to-use Lavalink client for NodeJS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [  "dist" ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext .ts ./src",
-    "types": "dts-bundle --removeSource --name erela.js --main ./dist --out ../typings/index.d.ts --baseDir ./dist",
+    "types": "dts-bundle --removeSource --name erela.js --main ./dist --out ../dist/index.d.ts --baseDir ./dist",
     "docs": "typedoc --json ./docs.json --mode file --excludeProtected --excludePrivate --excludeExternals src/structures",
     "publish:stable": "yarn build && yarn types && yarn publish --access=public",
     "publish:beta": "yarn build && yarn types && yarn publish --tag beta --access=public"
