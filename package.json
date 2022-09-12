@@ -1,6 +1,6 @@
 {
   "name": "@nextium/erela.js",
-  "version": "3.0.2-pre",
+  "version": "3.0.3-pre",
   "description": "An easy-to-use Lavalink client for NodeJS.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -44,9 +44,9 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
-    "@discordjs/collection": "^0.6.0",
-    "petitio": "^1.4.0",
-    "ws": "^8.6.0"
+    "@discordjs/collection": "^0.2.1",
+    "undici": "^4.11.0",
+    "ws": "^8.1.0"
   },
   "engines": {
     "node": ">=16.0.0"
